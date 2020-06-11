@@ -1,0 +1,435 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <!-- Bootstrap core CSS -->
+     <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+     <script src="https://kit.fontawesome.com/af7dd5997a.js" crossorigin="anonymous"></script>
+     
+     <link rel="stylesheet" href="bootstrap-tagsinput.css">
+     <link rel="stylesheet" href="index.css">
+     <link rel="stylesheet" href="./node_modules/sal.js/dist/sal.css">
+     <link rel="stylesheet" href="./equip-master/css/owl.carousel.min.css">
+
+  
+     
+     
+    
+    <title>Llia Llove</title>
+
+  </head>
+
+  <body>
+
+
+     
+    <header id="start"> 
+        
+            <div class="row">
+              <img src="./sa.jpg" alt="" class="sa hide-mobile"
+              data-sal="slide-right"
+              data-sal-duration="1200"
+              data-sal-delay="900"
+              data-sal-easing="ease-out-bounce"
+              >
+              <div class="col-sm hide-mobile" 
+              data-sal="slide-right"
+              data-sal-duration="1200"
+              data-sal-delay="400"
+              data-sal-easing="ease-out-bounce"
+              >
+                
+                <form action="search">
+                  <div class="input-box">
+                    <input class="input-text" type="text" placeholder="SEARCH">
+                    <button type="search"><i class="fas fa-search"></i></button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-sm brand-name"
+           
+              >  
+              <a href="index.html"><img src="./webpictures/logo.JPG" alt=""></a>
+                 
+              </div>
+              <div id ="cart-info" class="col-sm shop-bag"
+              data-sal="slide-left"
+              data-sal-duration="1200"
+              data-sal-delay="800"
+              data-sal-easing="ease-out-bounce"
+              >
+                <div class="shake">
+                  <a href="#"><i class="fas fa-shopping-bag"></i></a>
+                </div>
+                <p>
+                   <span id="item-count">0</span> items -  R 
+                   <span class="item-total">00.00</span>
+                </p>
+              </div>
+            </div>
+             
+           <nav>
+              <ul>
+                
+                  <li class="mobile"
+                  data-sal="slide-down"
+                  data-sal-duration="1200"
+                  data-sal-delay="200"
+                  data-sal-easing="ease-out-bounce"
+                  ><a href="#">
+                    CATALOG</a><br>
+                    <i class="fas fa-sort-up"></i>
+                    <div class=" drop">
+                      <a href="catalog.html">Slim</a><br>
+                      <a href="catalog.html">Plus size</a>
+                    </div>
+                  </li>
+                  <li class="mobile"
+                  data-sal="slide-down"
+                  data-sal-duration="1200"
+                  data-sal-delay="300"
+                  data-sal-easing="ease-out-bounce"
+                  ><a href="#">TOPS</a><br>
+                    <i class="fas fa-sort-up"></i>
+                    <div class=" drop">
+                      <a href="#">Unavailable</a><br>
+                    </div>
+                  </li>
+                  <li class="mobile"
+                  data-sal="slide-down"
+                  data-sal-duration="1200"
+                  data-sal-delay="400"
+                  data-sal-easing="ease-out-bounce"
+                  ><a href="#">BOTTOMS</a><br>
+                    <i class="fas fa-sort-up"></i>
+                    <div class=" drop">
+                      <a href="#">Long Pants</a><br>
+                     
+                    </div>
+                  </li>
+                  <li class="mobile"
+                  data-sal="slide-down"
+                  data-sal-duration="1200"
+                  data-sal-delay="900"
+                  data-sal-easing="ease-out-bounce"
+                  ><a href="#">ROMPERS</a><br>
+                    <i class="fas fa-sort-up"></i>
+                    <div class=" drop">
+                      <a href="#">Unavailable</a><br>
+                     
+                    </div>
+                   
+                  </li>
+                  <li class="mobile"
+                  data-sal="slide-down"
+                  data-sal-duration="1200"
+                  data-sal-delay="1000"
+                  data-sal-easing="ease-out-bounce"
+                  ><a href="#">JUMPSUITS</a><br>
+                    <i class="fas fa-sort-up"></i>
+                   
+                  
+                  </li>
+                 
+              </ul>
+              
+           </nav>
+           
+      </header> 
+
+         <section class="sec-1">
+           <div id="cart" class="cart">
+               <!--cart item-->
+            
+               <!--end of cart item-->
+                <!--Cart total-->
+            <div class="cart-total-container d-flex justify-content-around">
+              <h5>Total</h5>
+               <h5>R <strong id="cart-total">00.00</strong></h5>
+            </div>
+            <!--end-of-Cart total-->
+            <!--cart buttons-->
+              <div class="cart-buttons-container d-flex justify-content-between mt-3">
+                <a href="#" id="clear-cart" class="btn btn-outline-secondary btn-black text-uppercase">Clear Cart</a>
+                <a href="#"  class="btn btn-outline-secondary btn-pink text-uppercase">Checkout</a>
+              </div>
+            <!--end cart buttons-->
+           </div>
+          <div class=" jumbo" id="jumbo"
+          data-sal="slide-up"
+          data-sal-duration="1200"
+          data-sal-delay="300"
+          data-sal-easing="ease-out-bounce"
+          > 
+          <canvas id="canvas"></canvas>
+            <h1 ><i class="fas fa-arrow-down" 
+              data-sal="slide-down"
+              data-sal-duration="1200"
+              data-sal-delay="600"
+              data-sal-easing="ease-out-bounce"
+              ></i>NEW ARRIVALS*<i class="fas fa-arrow-down" 
+              data-sal="slide-down"
+              data-sal-duration="1200"
+              data-sal-delay="800"
+              data-sal-easing="ease-out-bounce"
+              ></i></h1>
+            
+          </div>
+      
+      
+          
+         </section>
+        <hr>
+         <section class="sec-2"
+              data-sal="slide-left"
+              data-sal-duration="1200"
+              data-sal-delay="300"
+              data-sal-easing="ease-out-bounce"
+         >
+          <div class="container-fluid px-0">
+            <div class="row no-gutters justify-content-center">
+              <div class="col-md-12">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+    
+                  <!-- Indicators -->
+                  <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                  </ul>
+                  
+                  <!-- The slideshow -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item active img" style="background-image: url(images/slider-1.jpg); height: 750px;">
+                      <div class="overlay"></div>
+                      <div class="container">
+                        <div class="row slider-text px-4 d-flex align-items-center justify-content-center">
+                          <div class="col-md-8 text w-100 text-center">
+                            <div class="pics">
+                              
+                              <img src="./webpictures/Blue Flare WIDE.jpg" alt=""> 
+                              <img src="./webpictures/Blue Flare CLOSE.jpg" alt="">
+                             
+                              
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item img" style="background-image: url(images/slider-2.jpg); height: 750px;">
+                      <div class="overlay"></div>
+                      <div class="container">
+                        <div class="row slider-text px-4 d-flex align-items-center justify-content-center">
+                          <div class="col-md-8 text w-100 text-center">
+                            <div class="pics">
+                              <img src="./webpictures/Grey Flare WIDE.jpg" alt=""> 
+                              <img src="./webpictures/Grey Flare CLOSE.jpg" alt=""> 
+                           </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item img" style="background-image: url(images/slider-1.jpg); height: 750px;">
+                      <div class="overlay"></div>
+                      <div class="container">
+                        <div class="row slider-text px-4 d-flex align-items-center justify-content-center">
+                          <div class="col-md-8 text w-100 text-center">
+                            <div class="pics">
+                              
+                              <img src="./webpictures/Blue folded BACK.jpg" alt=""> 
+                              <img src="./webpictures/Blue Folded WIDE.jpg" alt="">
+                             
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item img" style="background-image: url(images/slider-1.jpg); height: 750px;">
+                      <div class="overlay"></div>
+                      <div class="container">
+                        <div class="row slider-text px-4 d-flex align-items-center justify-content-center">
+                          <div class="col-md-8 text w-100 text-center">
+                            <div class="pics">
+                              
+                              <img src="./webpictures/Leopard WIDE.jpg" alt=""> 
+                              <img src="./webpictures/Leopard CLOSE.jpg" alt="">
+                             
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item img" style="background-image: url(images/slider-1.jpg); height: 750px;">
+                      <div class="overlay"></div>
+                      <div class="container">
+                        <div class="row slider-text px-4 d-flex align-items-center justify-content-center">
+                          <div class="col-md-8 text w-100 text-center">
+                            <div class="pics">
+                              
+                              <img src="./webpictures/Diamond WIDE.jpg" alt=""> 
+                              <img src="./webpictures/Diamond CLOSE.jpg" alt="">
+                             
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item img" style="background-image: url(images/slider-1.jpg); height: 750px;">
+                      <div class="overlay"></div>
+                      <div class="container">
+                        <div class="row slider-text px-4 d-flex align-items-center justify-content-center">
+                          <div class="col-md-8 text w-100 text-center">
+                            <div class="pics">
+                              
+                              <img src="./webpictures/Jumpsuit WIDE.jpg" alt=""> 
+                              <img src="./webpictures/Jumpsuit BACK.jpg" alt="">
+                             
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item img" style="background-image: url(images/slider-1.jpg); height: 750px;">
+                      <div class="overlay"></div>
+                      <div class="container">
+                        <div class="row slider-text px-4 d-flex align-items-center justify-content-center">
+                          <div class="col-md-8 text w-100 text-center">
+                            <div class="pics">
+                              
+                              <img src="./webpictures/Leather WIDE.jpg" alt=""> 
+                              <img src="./webpictures/Leather BACK.jpg" alt="">
+                             
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Left and right controls -->
+                  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="ion-ios-arrow-round-back"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="ion-ios-arrow-round-forward"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr>
+  
+      <footer>
+            <div class="top-footer">
+              <img src="./webpictures/visa.JPG" alt="">
+              <img src="./webpictures/paypal.JPG" alt="">
+            </div>
+            <hr>
+            <div class="mid-footer">
+             <div class="subscribe">
+                 <a href="#">SUBSCRIBE TO NEWSLETTER</a> <br>
+                 <a href="#">About Us</a> <br>
+                 <div class="icon-bar"
+                 
+                 data-sal-duration="1200"
+                 data-sal-delay="1000"
+                 data-sal-easing="ease-in-bounce"
+                 >
+                  <a href="#" class="facebook"
+                  data-sal="slide-right"
+                  ><i class="fab fa-facebook"
+                  data-sal="slide-right"
+                  data-sal-delay="100"
+                  ></i></a>
+                  <a href="#" class="twitter"
+                  data-sal="slide-right"
+                  ><i class="fab fa-twitter"
+                  data-sal="slide-right"
+                  data-sal-delay="200"
+                  ></i></a>
+                  <a href="#" class="youtube"
+                  data-sal="slide-right"
+                  ><i class="fab fa-youtube"
+                  data-sal="slide-right"
+                  ></i></a>
+                  <a href="#" class="linkedin"
+                  data-sal="slide-right"
+                  ><i class="fab fa-linkedin"></i></a>
+                  
+                </div>
+             </div>
+             
+             <div class="contact">
+              <a href="#">Contact Us</a> <br>
+                <a href="#start"><i class="fas fa-sort-up"></i></a>
+                <br> Back To Top 
+                
+             </div>
+
+          </div>
+          <div class="copy">
+            <img src="./webpictures/logo.JPG" alt=""> <br>
+            &copy;2020 LLIA LLOVE 
+           </div>
+      </footer>
+    
+
+  
+      <script src="bootstrap-tagsinput.js"></script>
+      <script src="./node_modules/sal.js/dist/sal.js"></script>
+      <script src="./granim.js-2.0.0/dist/granim.min.js"></script>
+      <script src="./equip-master/js/owl.carousel.min.js"></script>
+      <script src="app.js"></script>
+    
+
+      <script>
+        sal({
+          threshold:0.1,
+          once:false
+        });
+
+        var granimInstance = new Granim({
+           element: '#canvas',
+            direction: 'left-right',
+              isPausedWhenNotInView: true,
+           states : {
+               "default-state": {
+                gradients: [
+                        ['#ff9966', '#ff5e62'],
+                        ['#00F260', '#0575E6'],
+                       ['#e1eec3', '#f05053']
+                 ]
+                 }
+             }
+         });
+
+
+        
+      </script>
+   
+    
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+   
+   </body>
+</html>
